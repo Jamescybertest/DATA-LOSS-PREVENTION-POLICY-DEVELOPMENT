@@ -37,7 +37,7 @@ To assess the effectiveness of DLP-03, three simulated tests were designed to ve
 
 ### Findings and Remediation
 
-**Finding ID:** DLP-F01
+**Finding ID:** DLP-T02
 
 **Finding:** The endpoint DLP control failed to block an unauthorized USB transfer of sensitive information.
 
