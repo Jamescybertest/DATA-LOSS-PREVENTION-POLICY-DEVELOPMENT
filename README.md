@@ -24,6 +24,46 @@ This policy establishes requirements to protect MapleTrust Financial Services' s
 - **DLP Policy:** Nine safeguards covering data inventory, classification, data transfer protection, monitoring, access control, encryption, control testing, and policy exceptions.
 - **ISO 27001 Control Mapping:** Policy safeguards mapped to relevant Annex A controls.
 
+  
+### Control Effectiveness Testing
+
+To assess the effectiveness of DLP-03, three simulated tests were designed to verify whether DLP controls prevent unauthorized transfers of sensitive information.
+
+| Test ID | Environment | Result |
+|---|---|---|
+| DLP-T01 | Email | Pass |
+| DLP-T02 | Endpoint (USB) | Fail |
+| DLP-T03 | Cloud Application | Pass |
+
+### Findings and Remediation
+
+**Finding ID:** DLP-F01
+
+**Finding:** The endpoint DLP control failed to block an unauthorized USB transfer of sensitive information.
+
+**Risk:** Sensitive customer information could be transferred to unauthorized devices.
+
+**Risk Rating:** High (Initial)
+
+**Corrective Action:** Review and update endpoint DLP configurations to prevent unauthorized transfers.
+
+**Status:** Open - Pending Remediation and Retesting.
+
+### Compliance Summary
+
+- **Tests:** 3
+- **Passed:** 2
+- **Failed:** 1
+- **Test Pass Rate:** 66.7%
+
+### Conclusion
+
+Developed a DLP policy with nine safeguards aligned with ISO/IEC 27001:2022 Annex A controls.
+
+The simulated control assessment identified one deficiency affecting endpoint DLP protection. Remediation and retesting are required before the finding can be closed.
+
+**Note:** Control testing results are simulated for portfolio purposes.
+
 ### Conclusion
 
 Developed a DLP policy aligned with ISO/IEC 27001:2022 Annex A controls, establishing requirements for protecting sensitive information and assessing DLP control effectiveness.
