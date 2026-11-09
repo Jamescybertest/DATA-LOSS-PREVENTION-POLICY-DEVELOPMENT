@@ -60,8 +60,5 @@ To assess the effectiveness of DLP-03, three simulated tests were designed to ve
 
 Developed a DLP policy with nine safeguards aligned with ISO/IEC 27001:2022 Annex A controls.  The simulated control assessment identified one deficiency affecting endpoint DLP protection. Remediation and retesting are required before the finding can be closed.
 
-**Note:** Control testing results are simulated for portfolio purposes.
+### **Note:** MapleTrust Financial Services is a fictional organization, Control testing results are simulated for portfolio purposes.
 
-### Conclusion
-
-### **Note:**  MapleTrust Financial Services is a fictional organization. This project demonstrates security policy development and ISO 27001 control mapping.
